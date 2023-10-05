@@ -5,7 +5,7 @@ need discord.py[voice], <br>
 create a .env file containing your api key with the name "API_KEY", <br>
 voice channels for teams are "team1" and "team2", you can change this to whatever channels you want
 # commands
-!randomteams - gives a button to join the player pool
-!teams - lists the current players on each team
-!clearteams - clears teams
+!randomteams - gives a button to join the player pool <br>
+!teams - lists the current players on each team <br>
+!clearteams - clears teams <br>
 !moveteams - moves players to respective team channel

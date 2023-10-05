@@ -86,9 +86,11 @@ def run():
             for vc in guild.voice_channels:
                 vc_list.append(vc)
         for i, vc in enumerate(vc_list):
+            # default name for team1 voice channel
             if vc.name == "team1":
                 team1vc = i
                 await ctx.send("team1 vc found")
+            # default name for team2 voice channel
             if vc.name == "team2":
                 team2vc = i
                 await ctx.send("team2 vc found")
